@@ -33,6 +33,7 @@ a {
 .section-title {
     margin: 0;
     font-size: 22px;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -77,10 +78,27 @@ a {
     width: 65%;
 }
 
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .hebergements-cards a {
+    width: 31%;
+    margin-bottom: 20px;
+  }
+
+.card-hebergement{
+    margin-bottom: 30px;
+}
+
+
 .hebergements-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .hebergements-cards .card {
@@ -96,6 +114,14 @@ a {
 }
 
 
+
+.afficher-plus{
+    margin-top: 30px;
+    font-size: 18;
+    font-weight: bold;
+}
+
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -105,6 +131,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .populaires-cards .card {
@@ -144,6 +171,19 @@ a {
 
 /****** Activités ********/
 
+.activites{
+    margin-top: 35px;
+    padding: 30px;
+}
+
+.activites-cards .card-title {
+    margin: 20px;
+}
+
+.activites-title{
+    margin-bottom: 30px;
+}
+
 .activites-cards img {
     width: 297.5px;
     height: 380px;
@@ -151,24 +191,54 @@ a {
     border-top-right-radius: 20px;
 }
 
+.activites-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
 /**** Header ***/
+
+header{
+    margin-bottom: 30px;
+}
 
 .booki-logo {
     width: 61.09px;
     height: 19px;
-    margin: 30px 50px 30px 0px;
-}
-
-header nav a {
-    margin-left: 20px; /* Adjust as needed */
+    margin: 10px 50px 30px 0px;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 14px;
 }
 
+.entete-liens{
+    display: inline-block;
+}
+
+.entete-lien{
+    padding-top: 20px;
+    margin: 0 30px 0 30px;
+}
+
+.entete-lien:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC; 
+}
+
+/**** Titre ****/
+
+.main-title {
+    margin-bottom: 0px;
+}
+
+.main-title + p {
+    margin-top: 8px;
+}
 
 
 /**** Footer ****/
@@ -195,6 +265,112 @@ footer{
     padding-top: 15px;
 }
 
+/**** Formulaire recherche ***/
+
+.search-box {
+    display: inline-block;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+
+.fa-map-marker-alt {
+    display: inline-block;
+    padding-right: 35px;
+    font-size: 18px;
+    background-color: var(--grey);
+    border-radius: 15px 0px 0px 15px;
+}
+
+input {
+    outline: none;
+    margin-right: -50px;
+    height: 49px;
+    border: none;
+    color: black;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold
+}
+
+button {
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button > .fas.fa-search {
+    display: none;
+}
+
+.rechercher-button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: black;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+/**** Filtres ****/
+
+.filtres{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.filtres-titre{
+    font-size: 18px;
+}
+
+.filtres-block{
+   
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.filtres:hover{
+    background-color: #DEEBFF;
+}
+
+.fa-fire,.fa-heart,.fa-person,.fa-money-bill-wave{
+    padding-right: 10px;
+}
+
+
+/**** Sous-titre info ***/
+
+.info {
+    display: flex;
+    align-items: center; /* Ajoutez cette ligne */
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+
+.info .fas.fa-info {
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
