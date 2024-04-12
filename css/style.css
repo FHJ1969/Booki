@@ -118,7 +118,7 @@ a {
 .afficher-plus{
     margin-top: -20px;
     margin-bottom: 40px;
-    font-size: 18;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -234,6 +234,7 @@ header nav {
 
 .main-title {
     margin-bottom: 0px;
+    font-size: 22px;
 }
 
 .main-title + p {
@@ -256,7 +257,7 @@ footer{
 }
 
 .footer-bold {
-    font-size: 18;
+    font-size: 18px;
     display: block;
 }
 
@@ -278,7 +279,7 @@ footer{
     display: inline-block;
     padding-right: 35px;
     font-size: 18px;
-    background-color: var(--grey);
+    background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -348,15 +349,12 @@ input::placeholder {
     padding-right: 10px;
 }
 
-.br-filtre{
-    display: none;
-}
 
 /**** Sous-titre info ***/
 
 .info {
     display: flex;
-    align-items: center; /* Ajoutez cette ligne */
+    align-items: center;
     margin-top: 35px;
     margin-bottom: 36px;
 }
