@@ -1,103 +1,104 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     
-    /*** General ***/
-
-    /*** Hebergement & Populaires ***/
+    /*** filtres ***/
     
-    .hebergements-and-populaires {
-        flex-direction: column;
+    .filtres-block {
+        display: inline-block;
     }
-
-/*** Hebergements ***/
-
-    .hebergements-cards img {
-        height: 110px;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+    
+    .filtre-titre {
+        display: block;
+        margin-bottom: 20px;
     }
-
-    .afficher-plus{
-        margin-left: 20px;
+        
+    
+    
+    /*** Hebergement & Populaires ***/
+        
+        .hebergements-and-populaires {
+            flex-direction: column;
+        }
+    
+    /*** Hebergements ***/
+    
+        .hebergements-cards img {
+            height: 110px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+    
+        .afficher-plus{
+            margin-left: 20px;
+        }
+    
+        .hebergements{
+            width: 107%;
+        }
+    
+    
+    /*** Populaires ***/
+    
+        .populaires {
+            width: 97%;
+            margin-top: 40px;
+        }
+    
+        .populaires-title{
+            margin-bottom: -20px;
+            justify-content: space-between;
+            width: 99%;
+    
+        }
+    
+        .populaires-cards {
+            display: flex;
+        }
+    
+        .populaires-cards a {
+            width: 32%;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    
+        .populaires-cards .card-subtitle {
+            font-size: 13px;
+        }
+    
+        .populaires-cards img {
+            width: 25%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+       
+        .populaires-cards a:last-child {
+            margin-right: 0;
+        }
+    
+    /*** Activité ***/
+    
+        .activites-cards a article img {
+            height: 160px;
+    
+        }
+    
+        .activites{
+            margin: 100px 35px 0 0;
+        }
+    
+        .activites-cards .card-title {
+            margin: 2px;
+            padding: 10px;
+            font-size: 13px;
+        }
+    
+    /*** footer ***/
+    
+        footer {
+            justify-content: space-between;
+        }
+    
+    
     }
-
-    .hebergements{
-        width: 107%;
-    }
-
-
-
-/*** Populaires ***/
-
-    .populaires {
-        width: 97%;
-        margin-top: 40px;
-    }
-
-    .populaires-title{
-        margin-bottom: -20px;
-        justify-content: space-between;
-        width: 99%;
-
-    }
-
-    .populaires-cards {
-        display: flex;
-    }
-
-    .populaires-cards a {
-        width: 32%;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
-
-    .populaires-cards img {
-        width: 25%;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-    }
-   
-    .populaires-cards a:last-child {
-        margin-right: 0;
-    }
-
-/*** filtres ***/
-
-.filtres-block {
-    display: inline-block;
-}
-
-.filtre-titre {
-    display: block;
-    margin-bottom: 20px;
-}
-
-/*** footer ***/
-
-    footer {
-        justify-content: space-between;
-    }
-
-
-/*** Activité ***/
-
-    .activites-cards a article img {
-        height: 160px;
-
-    }
-
-    .activites{
-        margin: 100px 35px 0 0;
-    }
-
-    .activites-cards .card-title {
-        margin: 2px;
-        padding: 10px;
-        font-size: 13px;
-    }
-
-}
+    
+    

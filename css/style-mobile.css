@@ -95,7 +95,6 @@
         margin-right: 15px;
     }
 
-
     /*** Hebergement ***/
 
     .hebergements {
@@ -146,22 +145,6 @@
         margin: 0 0 15px 100px;
     }
 
-    /*** Footer ***/
-
-    footer{
-        display: flex;
-        flex-direction: column;
-        margin: 40px 20px 0px 20px;
-
-    }
-
-    .footer-block{
-        width: 60%;
-        padding: 15px;
-    }
-
-    
-
     /*** Activités ***/
 
     .activites{
@@ -175,7 +158,6 @@
     .activites-cards {
         margin-left: 10px;
       }
-
 
     .activites-cards a{
         width: 100%;
@@ -193,4 +175,20 @@
         font-size: 16px;
         text-align: left;
     }
+
+/*** Footer ***/
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 20px 0px 20px;
+
+    }
+
+    .footer-block{
+        width: 60%;
+        padding: 15px;
+    }
+
   }
+
