@@ -40,7 +40,7 @@
     /*** Populaires ***/
     
         .populaires {
-            width: 97%;
+            width: 98%;
             margin-top: 40px;
         }
     
@@ -56,7 +56,7 @@
         }
     
         .populaires-cards a {
-            width: 32%;
+            width: 33%;
             margin-right: 10px;
             margin-bottom: 10px;
         }
@@ -83,7 +83,8 @@
         }
     
         .activites{
-            margin: 100px 35px 0 0;
+            margin: 100px 40px 0 0;
+            width: 98%;
         }
     
         .activites-cards .card-title {

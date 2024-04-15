@@ -99,6 +99,7 @@
 
     .hebergements {
         order: 2;
+        margin-top: 50px;
       }
     
     .hebergements-cards a {
