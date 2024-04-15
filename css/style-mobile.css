@@ -5,17 +5,12 @@
 
     .main-container {
         width: 100%;
-        max-width: 768px;
         padding: 0;
         box-sizing: border-box;
     }
 
     main{
         margin: 0 20px 10px 20px;
-    }
-
-    .section-title{
-        font-size: 22px;
     }
     
     /*** Header ***/
@@ -34,18 +29,20 @@
       .booki-logo {
         width: 61.09px;
         height: 19px;
-        margin: 25px 25px 40px 15px;
-
+        padding: 25px 25px 40px 25px;
+        margin: 0;
       }
     
       .entete-liens {
-        justify-content: space-between;
+        
       }
     
       .entete-lien {
         padding: 10px 45.3px 10px 45px;
         margin: 0;
         text-align: center;
+        display: inline-block;
+        width: 24%;
       }
     
       .entete-lien:hover {
@@ -74,31 +71,25 @@
         border-radius: 15px;
     }
 
-    input {
-        margin-right: -30px;
-    }
-
     /*** Filtres ***/
-
-    .filtre-titre{
-        margin-top: 30px;
-    }
 
     .filtres {
         display: flex;
+        flex-direction: row;
+        align-items: center;
         flex-wrap: wrap;
     }
 
     .filtre {
-        margin: 0;
+        text-align: center;
+    }
+
+    .filtre-txt{
+        display: inline;
+        font-size: 14px;
     }
 
     /*** Info ***/
-
-    .info{
-        width: 350px;
-        margin-left: -15px;
-    }
 
     .fa-info{
         margin-right: 15px;
@@ -111,9 +102,12 @@
         order: 2;
       }
     
+    .hebergements-cards a {
+        width: 95%;
+    }
+
     .hebergements-cards img {
-        width: 315.33px;
-        height: 124px;
+        height: 130px;
     }
 
     .hebergements-cards {
@@ -124,9 +118,11 @@
       /*** Populaire ***/
 
       .populaires {
-        width: 900px;
-        margin-left: -40px;
         order: 1;
+    }
+
+    .populaires-cards a {
+        width: 100%;
     }
 
       .populaires-cards{
@@ -135,7 +131,7 @@
     }
 
     .populaires-cards img {
-        width: 110px;
+        width: 30%;
         height: 146px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -143,7 +139,6 @@
 
     .populaires-title {
         display: flex;
-        justify-content: flex-start;
         align-items: center;
     }
 
@@ -161,13 +156,18 @@
     }
 
     .footer-block{
-        padding: 0 20px 0 20px;
+        width: 60%;
+        padding: 15px;
     }
 
     
 
     /*** Activités ***/
 
+    .activites{
+        margin: 40px 0 0 0;
+    }
+    
     .activites-cards .acti-card {
         margin-bottom: 20px;
     }
@@ -176,25 +176,21 @@
         margin-left: 10px;
       }
 
+
+    .activites-cards a{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
     .activites-cards img {
-        width: 315px;
         height: 141px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        object-fit: cover;
-    }
-
-    .activites-cards .card-content {
-        padding: 0;
-        width: 200px;
     }
 
     .activites-cards .card-title {
-        margin: 20px 0;
-        width: 300px;
-        margin-left: 15px;
+        margin: 20px;
         font-size: 16px;
         text-align: left;
-        white-space: normal;
     }
   }
