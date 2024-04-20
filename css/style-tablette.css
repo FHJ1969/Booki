@@ -5,6 +5,7 @@
     
     .filtres-block {
         display: inline-block;
+        width: 100%;
     }
     
     .filtre-titre {
@@ -29,18 +30,18 @@
         }
     
         .afficher-plus{
-            margin-left: 20px;
+            
         }
     
         .hebergements{
-            width: 107%;
+            width: 100%;
         }
     
     
     /*** Populaires ***/
     
         .populaires {
-            width: 98%;
+            width: 100%;
             margin-top: 40px;
         }
     
@@ -50,7 +51,7 @@
             width: 99%;
     
         }
-    
+
         .populaires-cards {
             display: flex;
         }
