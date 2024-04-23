@@ -37,7 +37,7 @@ a {
 
 .section-title {
     font-size: 22px;
-    width: 80%;
+    width: 88%;
 }
 
 .card {
@@ -356,7 +356,8 @@ input::placeholder {
 /****** Activités ********/
 
 .activites{
-    margin-top: 70px;
+    margin: 70px 0 0 18px;
+    width: 97%;
 }
 
 .activites-cards .card-title {

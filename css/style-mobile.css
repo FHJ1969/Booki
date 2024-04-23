@@ -3,13 +3,14 @@
     
     /*** General ***/
 
+    body{
+        margin: auto;
+    }
+    
     .main-container {
         padding: 0;
     }
 
-    main{
-        margin: 5px;
-    }
     
     /*** Header ***/
     
@@ -54,8 +55,8 @@
 
     /*** Titre ***/
 
-    .title-and-text{
-        margin: 0 10px;
+    .section-main{
+        margin: 0 20px;
     }
     
     .main-title {
@@ -63,13 +64,15 @@
 
     .section-title {
         font-size: 22px;
-        width: 100%;
+        width: 75%;
       }
 
     /*** Formulaire de Recherche ***/
 
     .search-box i {
-        width: 10%;
+        width: 5%;
+        margin-right: 15px;
+        text-align: center;
     }
 
     input{
@@ -100,7 +103,7 @@
     .filtre {
         text-align: center;
         width: 40%;
-        padding: 10px;
+        padding: 10px 3px;
     }
 
     .filtre-txt{
@@ -114,17 +117,25 @@
         margin-right: 15px;
     }
 
+    .info{
+        margin-bottom: 0px;
+    }
+
     /*** Hebergement et Populaire ***/
 
     .hebergements-and-populaires {
-        margin: 0 20px;
+        margin: 0;
       }
+
+    .hebergements-and-populaires section{
+        border-radius: 0;
+    }
 
     /*** Hebergement ***/
 
     .hebergements {
         order: 2;
-        margin-top: 50px;
+        margin: 50px 20px;
       }
 
       .hebergements-title {
@@ -133,7 +144,7 @@
       }
     
     .hebergements-cards a {
-        width: 95%;
+        width: 89%;
     }
 
     .hebergements-cards img {
@@ -150,16 +161,22 @@
 
       .populaires {
         order: 1;
+        padding: 20px;
+        width: 100%;
+        background-color: var(--main-bg-color);
+        border-radius: 0px;
     }
 
     .populaires-cards a {
         width: 100%;
+        margin-bottom: 0;
     }
 
       .populaires-cards{
         display: flex;
         flex-direction: column;
         padding: 0px;
+        width: 89%;
     }
 
     .populaires-cards img {
@@ -182,8 +199,8 @@
     /*** Activités ***/
 
     .activites{
-        margin: 0 20px;
-        width: 85%;
+        margin: 25px;
+        width: 86%;
     }
     
     .activites-cards .acti-card {
@@ -216,8 +233,7 @@
     footer{
         display: flex;
         flex-direction: column;
-        margin: 10px;
-
+        padding: 0px 10px;
     }
 
     .footer-block{
