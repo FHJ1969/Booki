@@ -69,6 +69,10 @@
 
     /*** Formulaire de Recherche ***/
 
+    .search-box{
+        width: 100%;
+    }
+    
     .search-box i {
         width: 5%;
         margin-right: 15px;
@@ -76,7 +80,7 @@
     }
 
     input{
-        width: 80%;
+        width: 95%;
     }
 
     button > .fas.fa-search {
@@ -111,7 +115,7 @@
         font-size: 14px;
     }
 
-    /*** Info ***/
+    /*** Sous-titre info ***/
 
     .fa-info{
         margin-right: 15px;
@@ -136,6 +140,7 @@
     .hebergements {
         order: 2;
         margin: 50px 20px;
+        background-color: white;
       }
 
       .hebergements-title {
@@ -207,9 +212,6 @@
         margin-bottom: 20px;
     }
 
-    .activites-cards {
-        
-      }
 
     .activites-cards a{
         width: 100%;
