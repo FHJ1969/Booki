@@ -96,7 +96,7 @@
     .filtres {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
@@ -145,9 +145,15 @@
         margin: 0;
       }
     
+      .hebergements-cards > a {
+        box-shadow: 15px 9px 29px #e6e6e6;
+        border-radius: 20px;
+      }
+
     .hebergements-cards a {
         width: 89%;
     }
+
 
     .hebergements-cards img {
         height: 130px;
