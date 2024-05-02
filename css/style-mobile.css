@@ -115,7 +115,8 @@
     /*** Sous-titre info ***/
 
     .fa-info{
-        margin-right: 15px;
+        width: 25px;
+        height: 25px;
     }
 
     .info{
